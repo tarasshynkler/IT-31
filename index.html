@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Playcraft - server minecraft</title>
+    <link href="https://fonts.googleapis.com/css?family=Play|Russo+One&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/monitoring.css">
+</head>
+<body>
+        <div>
+                <ul class="m_menu">
+                    <li class="close-menu">&times;
+                    </li>
+                  <li class="menu__link">
+                       <a class="menuA" href="#">Додому</a>
+                  </li>
+                  <li class="menu__link">
+                        <a class="menuA" href="#">Інформація</a>
+                  </li>
+                  <li class="menu__link">
+                        <a class="menuA" href="#">Cервери</a>
+                  </li>
+                  <li class="menu__link">
+                        <a class="menuA" href="#">Про нас</a>
+                  </li>
+                  <li class="menu__link">
+                        <a class="menuA" href="#"> Лаунчер</a>
+                  </li>
+                  <li class="menu__link">
+                            <a class="menuA" href="#">Донат</a>
+                  </li>
+                  <li class="menu__link">
+                            <a class="menuA" href="#">Карта</a>
+                  </li>
+                  <li class="menu__link">
+                            <a class="menuA" href="#">Вхід</a>
+                  </li>
+                  <li class="menu__link">
+                        <a class="menuA button" href="#">Змінити тему</a>
+              </li>
+                </ul>  
+        </div>
+    <div class="fixed_menu">
+            <header class="header">
+                    <div class="logo">
+                       
+                        <div class="logoimg"></div>
+                    </div>
+                    <div class="menu">
+                            <ul>
+                              <li class="menu__link">
+                                   <a class="menuA" href="#">Додому</a>
+                              </li>
+                              <li class="menu__link dropdown">
+                                    <a class="menuA" href="#">Інформація</a>
+                                    <div class="dropdown-child">
+                                            <a class="menuA" href="#">Cервери</a>
+                                            <a class="menuA" href="#">Про нас</a>
+                                    </div>
+                              </li>
+                              <li class="menu__link">
+                                    <a class="menuA" href="#"> Лаунчер</a>
+                              </li>
+                              <li class="menu__link">
+                                        <a class="menuA" href="#">Донат</a>
+                              </li>
+                              <li class="menu__link">
+                                        <a class="menuA" href="#">Карта</a>
+                              </li>
+                              <li class="menu__link">
+                                        <a class="menuA" href="#">Вхід</a>
+                              </li>
+                            </ul>  
+                    </div>
+                    <div class="button">
+                        <button class="book">
+                            <span class="book__icon"></span>
+                            Змінити тему
+                        </button>
+                    </div>
+                    <a href="#" class="menulink">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+
+                </header>
+    </div>
+    <div class="main">
+            
+            <div class="offer">
+                    <div class="title">
+							<h1 class="title__heading">Спробуй зіграти</h1>
+							<p class="title__desc">
+								на 
+								<span>PlayCraft</span>
+							</p>
+						</div>
+            </div>
+            <div class="online">
+                <div class="bar">
+                    <div class="online_text"><span>ONLINE:</span></div>
+                    <div id="server0"></div>
+                </div>
+            </div>
+            <div class="about">
+                <div class="about_server">
+                    <h2>Про сервер</h2>
+                    <p>PlayCraft — український сервер із теплою атмосферою, на якому можна приємно провести час разом зі своїми друзями. Існує голосовий чат TeamSpeak 3, в якому можна знайти друзів для спільної гри.</p>
+                    <ul>
+                            <li>Натисніть <a href="#">Вхід</a>, щоб зареєструватись або увійти в особистий кабінет. Для цього необхідно просто авторизуватися через соціальну мережу.
+                            </li><li>Грати у нас просто! Необхідно <a style="cursor:pointer">завантажити</a> наш лаунчер, та насолоджуватись грою у хорошій компанії. 
+                            </li><li>Граючи на нашому сервері, ви погоджуєтеся з <a href="#">правилами</a>. 
+                            </li><li>Більше відповідей можете знайти у вкладці <a href="#">Часті запитання</a>. 
+                            </li><li>Якщо у вас виникли якісь запитання, ви можете поставити їх в режимі онлайн через <a href="#">Facebook</a> або <a href="#">VK</a>.
+                        </li></ul>
+                </div>
+                <div class="img_server_block">
+                    <div class="img_server_down">
+                        <img src="/img/mc1.png" alt="PlayCraft" class="img_server_item">
+                        <img src="/img/mc2.png" alt="Playcraft" class="img_server_item">
+                    </div>
+                </div>
+                <div class="img_server_block">
+                        <div class="img_server">
+                                <img src="/img/mc3.png" alt="PlayCraft" class="img_server_item">
+                                <img src="/img/mc4.png" alt="Playcraft" class="img_server_item">
+                        </div>
+                </div>
+            </div>
+            <div class="return">
+                <div class="return_form">
+                        <form name="contact_form" class="ui-form">
+                                <div class="form-row">
+                                    <input type="text" id="name" name="contact_name" required autocomplete="off"><label for="name">Ім'я</label>
+                                </div>
+                                <div class="form-row">
+                                    <input type="text" id="email" name="contact_e_mail" required autocomplete="off"><label for="email">Email</label>
+                                </div>
+                                <div class="form-row">
+                                    <input type="text" id="password" name="contact_subj" required autocomplete="off"><label for="password">Текст</label>
+                                  </div>
+                                      <p><input type="submit" id="done" value="Надіслати"></p>
+                            </form>
+                </div>
+                <div class="return_table">
+                        <table>
+                                <tr>
+                                    <td bgcolor="#464646">Виживання</td>
+                                    <td bgcolor="#575757"><img class="table_img" src="/img/checkbox.png" alt="Галочка"></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#464646">Власний лаунчер</td>
+                                    <td bgcolor="#575757"><img class="table_img" src="/img/checkbox.png" alt="Галочка"></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#464646">Автоматичний донат</td>
+                                    <td bgcolor="#575757"><img class="table_img" src="/img/checkbox.png" alt="Галочка"></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#464646">Міні-ігри</td>
+                                    <td bgcolor="#575757"><img class="table_img" src="/img/checkbox.png" alt="Галочка"></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#464646">Онлайн карта</td>
+                                    <td bgcolor="#575757"><img class="table_img" src="/img/checkbox.png" alt="Галочка"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" bgcolor="#232323">Ваш PlayCraft</td>
+                                </tr>
+                            </table>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer_social">
+                    <a href="#fb"><img class="img_social" src="/img/fb.png" alt=""></a>
+                    <a href="#in"><img class="img_social" src="/img/in.png" alt=""></a>
+                    <a href="#tg"><img class="img_social" src="/img/tg.png" alt=""></a>
+                    <a href="#ds"><img class="img_social" src="/img/ds.png" alt=""></a>
+                </div>
+                <div class="button">
+                        <button class="bookfooter">
+                        <span class="book__iconfooter"></span>
+                        Змінити тему
+                    </button>
+                </div>
+
+            </footer>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/monitoring.js"></script>
+</body>
+</html>
